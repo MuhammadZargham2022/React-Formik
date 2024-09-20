@@ -42,7 +42,7 @@ const SignupForm = () => {
           <ErrorMessage name="email" component="div" />
 
           <label htmlFor="jobs">Select Job</label>
-          <Multiselect
+          <Multiselect 
             displayValue="key"
             onRemove={(selectedList, removedItem) => {
               const values = selectedList.map(item => item.key);
