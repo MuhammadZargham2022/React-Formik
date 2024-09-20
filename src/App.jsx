@@ -1,5 +1,5 @@
-import SignupForm from './components/Basic.Jsx'
-import './App.scss'
+import SignupForm from './components/Basic.Jsx';
+import './App.scss';
 
 function App() {
 
