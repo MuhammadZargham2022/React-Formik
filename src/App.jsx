@@ -1,6 +1,4 @@
-import { useState } from "react";
-import Seletor from "./components/Seletor";
-import "./App.scss";
+
 
 function App() {
   const { value, setValue } = useState();
