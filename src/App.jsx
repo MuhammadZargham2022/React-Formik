@@ -1,7 +1,6 @@
-
-
+import Seletor from "./components/Seletor";
+import "./App.scss";
 function App() {
-  const { value, setValue } = useState();
 
   const dummyData = [
     {
@@ -23,7 +22,7 @@ function App() {
       <section>
         <div>
           <Seletor data={dummyData}
-          
+         
           
           />
         </div>
