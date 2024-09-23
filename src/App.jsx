@@ -21,9 +21,7 @@ function App() {
     <>
       <section>
         <div>
-          <Seletor data={dummyData}
-         
-          
+          <Seletor data={dummyData}          
           />
         </div>
       </section>
