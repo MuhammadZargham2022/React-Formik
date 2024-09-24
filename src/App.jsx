@@ -16,12 +16,15 @@ function App() {
       message: "Banana",
     },
   ];
-
+const consoleItem = (item) =>{
+  console.log(item.message)
+}
   return (
     <>
       <section>
         <div>
-          <Seletor data={dummyData}          
+          <Seletor data={dummyData}
+          displayItem={consoleItem}          
           />
         </div>
       </section>
