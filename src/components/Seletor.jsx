@@ -3,9 +3,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 
 const Seletor = (props) => {
   const [isOpen, setIsOpen] = useState(false);
-  const DisplayItem = (item) =>{
-    console.log( `Fruits : ${item.message}`);
-  }
+
 
   return (
     <>
@@ -18,7 +16,7 @@ const Seletor = (props) => {
         {isOpen && (
           <div>
             {props.data.map((item) => (
-              <p onClick={()=> DisplayItem(item)}>{item.message}</p>
+              <p onClick={()=> props.displayItem(item)}>{item.message}</p>
             ))}
           </div>
         )}
